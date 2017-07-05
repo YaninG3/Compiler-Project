@@ -1,0 +1,192 @@
+
+Processing rule 1
+Expected token type: 13, Next token type = 13 (lexeme: 'start') matched!
+Processing rule 2
+Processing rule 6 as default
+Next token type: 16 (lexeme: 'integer'), Processing rule 9
+Expected token type: 1, Next token type = 1 (lexeme: 'x') matched!
+Next token type: 24 (lexeme: 'const'), Processing rule 8
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+Expected token type: 2, Next token type = 2 (lexeme: '10') matched!
+Next token type: 6 (lexeme: ';'), Processing rule 3
+Processing rule 2
+Processing rule 6 as default
+Next token type: 16 (lexeme: 'integer'), Processing rule 9
+Expected token type: 1, Next token type = 1 (lexeme: 'x') matched!
+---Semantic Error: detected in line 3, lexeme 'x'---
+---duplicated declaration of the same name within same scope is forbidden)---
+Next token type: 24 (lexeme: 'const'), Processing rule 8
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+Expected token type: 2, Next token type = 2 (lexeme: '5') matched!
+Next token type: 6 (lexeme: ';'), Processing rule 3
+Processing rule 2
+Processing rule 6 as default
+Next token type: 16 (lexeme: 'integer'), Processing rule 9
+Expected token type: 1, Next token type = 1 (lexeme: 'y') matched!
+Next token type: 24 (lexeme: 'const'), Processing rule 8
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+Expected token type: 2, Next token type = 2 (lexeme: '10.5') matched!
+Next token type: 6 (lexeme: ';'), Processing rule 3
+Processing rule 2
+Processing rule 6 as default
+Next token type: 15 (lexeme: 'real'), Processing rule 10
+Expected token type: 1, Next token type = 1 (lexeme: 'z') matched!
+Next token type: 24 (lexeme: 'const'), Processing rule 8
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+Expected token type: 2, Next token type = 2 (lexeme: '10.5') matched!
+Next token type: 6 (lexeme: ';'), Processing rule 3
+Processing rule 2
+Next token type: 1 (lexeme: 'e'), Processing rule 5
+Expected token type: 7, Next token type = 7 (lexeme: ':') matched!
+Expected token type: 23, Next token type = 23 (lexeme: 'exception') matched!
+Next token type: 6 (lexeme: ';'), Processing rule 3
+Processing rule 2
+Processing rule 6 as default
+Next token type: 15 (lexeme: 'real'), Processing rule 10
+Expected token type: 1, Next token type = 1 (lexeme: 'a') matched!
+Processing rule 7 as default
+Processing rule 11 as default
+Next token type: 6 (lexeme: ';'), Processing rule 3
+Processing rule 2
+Processing rule 6 as default
+Next token type: 16 (lexeme: 'integer'), Processing rule 9
+Expected token type: 1, Next token type = 1 (lexeme: 'b') matched!
+Processing rule 7 as default
+Next token type: 8 (lexeme: ','), Processing rule 12
+Expected token type: 1, Next token type = 1 (lexeme: 'c') matched!
+Next token type: 8 (lexeme: ','), Processing rule 12
+Expected token type: 1, Next token type = 1 (lexeme: 'd') matched!
+Processing rule 11 as default
+Next token type: 6 (lexeme: ';'), Processing rule 3
+Processing rule 2
+Processing rule 6 as default
+Next token type: 16 (lexeme: 'integer'), Processing rule 9
+Expected token type: 1, Next token type = 1 (lexeme: 'b') matched!
+---Semantic Error: detected in line 9, lexeme 'b'---
+---duplicated declaration of the same name within same scope is forbidden)---
+Processing rule 7 as default
+Processing rule 11 as default
+Next token type: 6 (lexeme: ';'), Processing rule 3
+Processing rule 2
+Processing rule 6 as default
+Next token type: 16 (lexeme: 'integer'), Processing rule 9
+Expected token type: 1, Next token type = 1 (lexeme: 'd') matched!
+---Semantic Error: detected in line 10, lexeme 'd'---
+---duplicated declaration of the same name within same scope is forbidden)---
+Processing rule 7 as default
+Processing rule 11 as default
+Processing rule 4 as default
+Expected token type: 11, Next token type = 11 (lexeme: '{') matched!
+Processing rule 13
+Next token type: 21 (lexeme: 'raise'), Processing rule 18
+Expected token type: 1, Next token type = 1 (lexeme: 'e') matched!
+Next token type: 6 (lexeme: ';'), Processing rule 15
+Processing rule 13
+Next token type: 21 (lexeme: 'raise'), Processing rule 18
+Expected token type: 1, Next token type = 1 (lexeme: 'a') matched!
+---Semantic Error: detected in line 13, lexeme 'a'---
+---referencing a non-exception object in command raise is forbidden---
+Next token type: 6 (lexeme: ';'), Processing rule 15
+Processing rule 13
+Next token type: 21 (lexeme: 'raise'), Processing rule 18
+Expected token type: 1, Next token type = 1 (lexeme: 'b') matched!
+---Semantic Error: detected in line 14, lexeme 'b'---
+---referencing a non-exception object in command raise is forbidden---
+Next token type: 6 (lexeme: ';'), Processing rule 15
+Processing rule 13
+Next token type: 1 (lexeme: 'a'), Processing rule 16
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+Next token type: 2 (lexeme: '2.7'), Processing rule 20
+Next token type: 6 (lexeme: ';'), Processing rule 15
+Processing rule 13
+Next token type: 1 (lexeme: 'b'), Processing rule 16
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+Next token type: 2 (lexeme: '3.25'), Processing rule 20
+Next token type: 6 (lexeme: ';'), Processing rule 15
+Processing rule 13
+Next token type: 1 (lexeme: 'c'), Processing rule 16
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+Next token type: 2 (lexeme: '5'), Processing rule 20
+Next token type: 6 (lexeme: ';'), Processing rule 15
+Processing rule 13
+Next token type: 1 (lexeme: 'a'), Processing rule 16
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+Next token type: 1 (lexeme: 'a'), Processing rule 21
+Next token type: 4 (lexeme: '+'), Processing rule 23
+Next token type: 1 (lexeme: 'c'), Processing rule 21
+Processing rule 22 as default
+Next token type: 6 (lexeme: ';'), Processing rule 15
+Processing rule 13
+Next token type: 1 (lexeme: 'b'), Processing rule 16
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+Next token type: 1 (lexeme: 'c'), Processing rule 21
+Next token type: 4 (lexeme: '*'), Processing rule 23
+Next token type: 1 (lexeme: 'd'), Processing rule 21
+Processing rule 22 as default
+Next token type: 6 (lexeme: ';'), Processing rule 15
+Processing rule 13
+Next token type: 1 (lexeme: 'b'), Processing rule 16
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+Next token type: 1 (lexeme: 'a'), Processing rule 21
+Next token type: 4 (lexeme: '-'), Processing rule 23
+Next token type: 1 (lexeme: 'c'), Processing rule 21
+Processing rule 22 as default
+Next token type: 6 (lexeme: ';'), Processing rule 15
+Processing rule 13
+Next token type: 1 (lexeme: 'u'), Processing rule 16
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+---Semantic Error: detected in line 21, lexeme 'u'---
+---variable is used without being declared---
+Next token type: 2 (lexeme: '4'), Processing rule 20
+Next token type: 6 (lexeme: ';'), Processing rule 15
+Processing rule 13
+Next token type: 1 (lexeme: 'x'), Processing rule 16
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+---Semantic Error: detected in line 22, lexeme 'x'---
+---assignments to constants are forbidden---
+Next token type: 1 (lexeme: 'x'), Processing rule 21
+Next token type: 4 (lexeme: '+'), Processing rule 23
+Next token type: 2 (lexeme: '1'), Processing rule 20
+Next token type: 6 (lexeme: ';'), Processing rule 15
+Processing rule 13
+Next token type: 1 (lexeme: 'y'), Processing rule 16
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+---Semantic Error: detected in line 23, lexeme 'y'---
+---assignments to constants are forbidden---
+Next token type: 1 (lexeme: 'y'), Processing rule 21
+Next token type: 4 (lexeme: '+'), Processing rule 23
+Next token type: 2 (lexeme: '2.3'), Processing rule 20
+Next token type: 6 (lexeme: ';'), Processing rule 15
+Processing rule 13
+Next token type: 1 (lexeme: 'e'), Processing rule 16
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+---Semantic Error: detected in line 24, lexeme 'e'---
+---exception name can be referenced only in a command raise; all other references to exceptions are illegal---
+Next token type: 2 (lexeme: '7'), Processing rule 20
+Next token type: 6 (lexeme: ';'), Processing rule 15
+Processing rule 13
+Next token type: 17 (lexeme: 'while'), Processing rule 17
+Processing rule 24
+Expected token type: 9, Next token type = 9 (lexeme: '(') matched!
+Expected token type: 1, Next token type = 1 (lexeme: 'e') matched!
+---Semantic Error: detected in line 25, lexeme 'e'---
+---exception name can be referenced only in a command raise; all other references to exceptions are illegal---
+Expected token type: 3, Next token type = 3 (lexeme: '>') matched!
+Expected token type: 1, Next token type = 2, miss match in line 25, lexeme: '1'
+---Semantic Error: detected in line 25, lexeme '1'---
+---variable is used without being declared---
+Expected token type: 10, Next token type = 10 (lexeme: ')') matched!
+Expected token type: 18, Next token type = 18 (lexeme: 'do') matched!
+Processing rule 13
+Next token type: 1 (lexeme: 'e'), Processing rule 16
+Expected token type: 5, Next token type = 5 (lexeme: '=') matched!
+---Semantic Error: detected in line 25, lexeme 'e'---
+---exception name can be referenced only in a command raise; all other references to exceptions are illegal---
+Next token type: 1 (lexeme: 'e'), Processing rule 21
+Next token type: 4 (lexeme: '-'), Processing rule 23
+Next token type: 2 (lexeme: '1'), Processing rule 20
+Processing rule 14 as default
+Expected token type: 19, Next token type = 19 (lexeme: 'od') matched!
+Processing rule 14 as default
+Expected token type: 12, Next token type = 17, miss match in line 26, lexeme: 'while'
+Expected token type: 14, Next token type = 9, miss match in line 26, lexeme: '('

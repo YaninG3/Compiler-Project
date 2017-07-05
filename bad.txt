@@ -1,0 +1,40 @@
+start
+	integer x const = 10;
+	integer x const = 5;
+	integer y const = 10.5;	
+	real z const = 10.5;
+	e : exception;
+	real a;
+	integer b,c,d;
+	integer b;
+	integer d
+	{
+		raise e;
+		raise a;
+		raise b;
+		a = 2.7;
+		b = 3.25;
+		c = 5;
+		a = a + c;
+		b = c * d;
+		b = a - c;
+		u = 4;
+		x = x + 1;
+		y = y + 2.3;
+		e = 7;
+		while (e > 1) do e = e - 1 od
+		while (c > 1) do c = c - 1 od
+		block			
+			b : exception;
+			integer a
+			{
+				raise e;
+				raise e;
+				a = 3.3;
+				x = x + 1;
+				y = y + 2.3;
+				while (c > 1) do c = c - 1 od
+			}
+		end_block
+	}
+finish

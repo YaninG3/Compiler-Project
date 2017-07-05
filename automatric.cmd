@@ -1,0 +1,1 @@
+cmd /c compiler.exe "bad.txt"

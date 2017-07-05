@@ -1,0 +1,18 @@
+start
+jiminy
+: exception {
+a = 33
+ ;
+while ( a > b )
+do
+raise
+ b;
+block
+
+integer 
+a const  =  44
+{ d = a 
+; raise d }
+end_block
+od
+} finish

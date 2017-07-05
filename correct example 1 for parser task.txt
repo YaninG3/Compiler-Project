@@ -1,0 +1,13 @@
+start jiminy : exception;
+	integer a, b, c;
+ {
+		a = 33 ;
+		while ( a > b )
+		do
+			raise jiminy;
+			block
+				integer d const  =  44
+				{ b = a ; raise iminy }
+			end_block
+		od
+} finish

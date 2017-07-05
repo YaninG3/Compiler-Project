@@ -1,0 +1,16 @@
+start
+	real a, i  , j , f ;
+	exc  :  exception
+	{
+		a = j * 6 ;
+		while ( f  ==  i ) do
+			i = 5
+		od ;
+		raise exc  ;
+		block
+			exc2  :  exception {
+				raise exc
+			}
+		end_block
+	}
+finish
